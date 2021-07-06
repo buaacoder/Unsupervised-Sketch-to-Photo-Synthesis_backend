@@ -155,7 +155,7 @@ class CycleGANModel(BaseModel):
         else:
             if self.only_fakephoto:
                 input_dict = {'gray':self.real_A, 'ref':self.ref_image}
-                self.fake_B, self.loss_content, self.loss_style = self.netG_A(input_dict, withref=False)  # input gray with ref
+                self.fake_B, self.loss_content, self.loss_style = self.netG_A(input_dict, withref=True)  # input gray with ref
             else:
                 input_dict = {'gray':self.real_A, 'ref':self.ref_image}
                 self.fake_B, self.loss_content, self.loss_style = self.netG_A(input_dict, withref=True)  # input gray with ref

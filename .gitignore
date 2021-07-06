@@ -20,4 +20,4 @@ my_django/uwsgi.ini
 my_django/store/**
 
 upload/
-
+results/
