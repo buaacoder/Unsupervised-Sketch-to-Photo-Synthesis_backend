@@ -31,4 +31,5 @@ class Transform(View):
         f = open(f'./results/step2_release_model/{now}/shoes/test_290/images/input_fake_B_fake_B.png', 'rb')
         output_data = base64.b64encode(f.read())
         f.close()
+
         return JsonResponse({'status': 200, 'output_image': str(output_data)})

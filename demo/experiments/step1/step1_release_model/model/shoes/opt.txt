@@ -3,7 +3,7 @@
                batch_size: 1                             
           checkpoints_dir: ./experiments/step1/step1_release_model/model/	[default: ./checkpoints]
                 crop_size: 128                           	[default: 256]
-                 dataroot: ./image/2021-06-29_15-19-33   	[default: None]
+                 dataroot: ./image/2021-07-16_16-21-35   	[default: None]
              dataset_mode: unaligned                     
                 direction: AtoB                          
           display_winsize: 256                           
@@ -38,7 +38,7 @@ layerasfeat_in_bottle_neck: 0
            prob_add_noise: 0.2                           
            prob_add_patch: 0.0                           
       resnet_n_downsample: 2                             
-              results_dir: ./results/step1_release_model/2021-06-29_15-19-33	[default: ./results/]
+              results_dir: ./results/step1_release_model/2021-07-16_16-21-35	[default: ./results/]
            serial_batches: False                         
              sp_attention: 1                             	[default: 0]
                    suffix:                               

@@ -3,7 +3,7 @@
                batch_size: 1                             
           checkpoints_dir: ./experiments/step2/step2_release_model/model/	[default: ./checkpoints]
                 crop_size: 128                           	[default: 256]
-                 dataroot: ./results/step1_release_model/2021-06-29_15-19-33/shoes/test_480	[default: None]
+                 dataroot: ./results/step1_release_model/2021-07-16_16-21-35/shoes/test_480	[default: None]
              dataset_mode: unaligned                     
                 direction: AtoB                          
           display_winsize: 256                           
@@ -35,7 +35,7 @@
                     phase: test                          
                preprocess: resize_and_crop               
       resnet_n_downsample: 2                             
-              results_dir: ./results/step2_release_model/2021-06-29_15-19-33	[default: ./results/]
+              results_dir: ./results/step2_release_model/2021-07-16_16-21-35	[default: ./results/]
            serial_batches: False                         
                    suffix:                               
                   verbose: False                         

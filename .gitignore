@@ -20,4 +20,6 @@ my_django/uwsgi.ini
 my_django/store/**
 
 upload/
-results/
+demo/results/step1_release_model
+demo/results/step2_release_model
+demo/image
