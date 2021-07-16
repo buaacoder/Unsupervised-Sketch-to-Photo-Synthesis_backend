@@ -1,12 +1,12 @@
-#.DS_Store
-#.idea
-#__pycache__/
-#frontend
-#migrations
-#store
-#dist
-#*.py[cod]
-#*$py.class
+.DS_Store
+.idea
+__pycache__/
+frontend
+migrations
+store
+dist
+*.py[cod]
+*$py.class
 
 **/*.zip
 **/*.rar
