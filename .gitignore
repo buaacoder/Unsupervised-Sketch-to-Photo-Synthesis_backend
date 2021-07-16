@@ -1,12 +1,12 @@
-.DS_Store
-.idea
-__pycache__/
-frontend
-migrations
-store
-dist
-*.py[cod]
-*$py.class
+#.DS_Store
+#.idea
+#__pycache__/
+#frontend
+#migrations
+#store
+#dist
+#*.py[cod]
+#*$py.class
 
 **/*.zip
 **/*.rar
@@ -23,3 +23,4 @@ upload/
 demo/results/step1_release_model
 demo/results/step2_release_model
 demo/image
+demo/db.sqlite3
